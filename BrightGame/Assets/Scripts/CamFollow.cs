@@ -15,12 +15,12 @@ public class CamFollow : MonoBehaviour
     }
 
     // Update is called once per frame
-    void FixedUpdate()
+    void LateUpdate()
     {
         Vector3 desiredPos = target.transform.position + offset;
         Vector3 smoothedPos = Vector3.Lerp(transform.position, desiredPos, smoothSpeed * Time.deltaTime);
         transform.position = smoothedPos;
 
-        transform.LookAt(target.transform);
+        //transform.LookAt(target.transform);
     }
 }

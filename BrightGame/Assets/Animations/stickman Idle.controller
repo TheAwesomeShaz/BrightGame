@@ -1,13 +1,13 @@
 %YAML 1.1
 %TAG !u! tag:unity3d.com,2011:
---- !u!1102 &-8715902053862990168
+--- !u!1102 &-7429450181909398083
 AnimatorState:
   serializedVersion: 5
   m_ObjectHideFlags: 1
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: Armature_001|Armature_001|mixamo_com|Layer0
+  m_Name: Run 1
   m_Speed: 1
   m_CycleOffset: 0
   m_Transitions: []
@@ -20,21 +20,20 @@ AnimatorState:
   m_MirrorParameterActive: 0
   m_CycleOffsetParameterActive: 0
   m_TimeParameterActive: 0
-  m_Motion: {fileID: 2073693694548410006, guid: e8bc60368265f624395e814050dfad87,
-    type: 3}
+  m_Motion: {fileID: 7400000, guid: be0b4f6ac5a658d4698cf055e257c539, type: 2}
   m_Tag: 
   m_SpeedParameter: 
   m_MirrorParameter: 
   m_CycleOffsetParameter: 
   m_TimeParameter: 
---- !u!1102 &-5822438383708441901
+--- !u!1102 &-238307347210290555
 AnimatorState:
   serializedVersion: 5
   m_ObjectHideFlags: 1
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: Armature_001|Armature_001|mixamo_com|Layer0
+  m_Name: Idle 1
   m_Speed: 1
   m_CycleOffset: 0
   m_Transitions: []
@@ -47,8 +46,7 @@ AnimatorState:
   m_MirrorParameterActive: 0
   m_CycleOffsetParameterActive: 0
   m_TimeParameterActive: 0
-  m_Motion: {fileID: 2073693694548410006, guid: 18eec63e175da944da3fe7fd214cb05c,
-    type: 3}
+  m_Motion: {fileID: 7400000, guid: 5d755abcffd6f45408d84757c21d3057, type: 2}
   m_Tag: 
   m_SpeedParameter: 
   m_MirrorParameter: 
@@ -86,11 +84,11 @@ AnimatorStateMachine:
   m_Name: Base Layer
   m_ChildStates:
   - serializedVersion: 1
-    m_State: {fileID: -8715902053862990168}
-    m_Position: {x: 291.61853, y: 10.317917, z: 0}
+    m_State: {fileID: -238307347210290555}
+    m_Position: {x: 303.14877, y: 18.588028, z: 0}
   - serializedVersion: 1
-    m_State: {fileID: -5822438383708441901}
-    m_Position: {x: 344.86108, y: 105.09461, z: 0}
+    m_State: {fileID: -7429450181909398083}
+    m_Position: {x: 493.81802, y: 119.21898, z: 0}
   m_ChildStateMachines: []
   m_AnyStateTransitions: []
   m_EntryTransitions: []
@@ -100,4 +98,4 @@ AnimatorStateMachine:
   m_EntryPosition: {x: 50, y: 120, z: 0}
   m_ExitPosition: {x: 800, y: 120, z: 0}
   m_ParentStateMachinePosition: {x: 800, y: 20, z: 0}
-  m_DefaultState: {fileID: -8715902053862990168}
+  m_DefaultState: {fileID: -238307347210290555}

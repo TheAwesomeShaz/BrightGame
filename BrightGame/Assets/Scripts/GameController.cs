@@ -5,24 +5,24 @@ using UnityEngine;
 public class GameController : MonoBehaviour
 {
     public static GameController instance;
-    public bool gameStarted;
+    public bool playing;
+    public bool hasWon;
     
 
     // Start is called before the first frame update
     void Start()
     {
         instance = this;
-       
     }
 
 
     //this is  called when user taps to play Ah yes, comment explainations
     public void TapToPlay()
     {
-        gameStarted = true;
+        playing = true;
     }
 
-    public void gameEnd()
+    public void TakeDamage()
     {
         
     }
